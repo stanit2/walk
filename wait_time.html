@@ -1,0 +1,17 @@
+<html>
+<head>
+ 
+<title></title>
+</head>
+<body>
+ 「ワゴンの待ち時間」
+<form oninput="wait_time.value = Number(front.value) / Number(back.value);">
+  自分の前に、何人並んでる？<input type="number" name="front" id="front" value="0" size="3">（人）
+  <br>
+  1分以内に、自分の後ろに何人来た？<input type="number" name="back" id="back" value="0" size="3"> （人）
+  <br>
+  待ち時間　<output name="wait_time" for="front back" size="5">0</output> （分）
+</form>
+  <img src="wait_time_3.jpg" width="600" height="400">
+</body>
+</html>
